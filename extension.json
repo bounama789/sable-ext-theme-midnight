@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "sable.theme-midnight",
+  "name": "Midnight",
+  "version": "1.0.0",
+  "publisher": "sable",
+  "description": "A quiet dark syntax theme: muted comments, soft keywords, calm strings. Maps the shared capture vocabulary; no process or filesystem permission is needed.",
+  "license": "MIT",
+  "engines": { "api": "^1.0" },
+  "categories": ["theme"],
+  "contributes": {
+    "themes": [
+      {
+        "id": "sable.midnight/1",
+        "label": "Midnight",
+        "kind": "dark",
+        "captureVocabulary": 1,
+        "path": "theme/midnight.json"
+      }
+    ]
+  }
+}
